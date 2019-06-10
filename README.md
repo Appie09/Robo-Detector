@@ -1,2 +1,1 @@
-# Robo-Detector
-Robot detection + Tensor flow lite + Java + Real Time
+traffic prediction

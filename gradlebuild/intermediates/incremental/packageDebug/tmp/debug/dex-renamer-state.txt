@@ -1,0 +1,7 @@
+#Tue Jul 02 20:59:53 CEST 2019
+base.0=D\:\\tensorflow-master\\tensorflow\\examples\\android\\gradleBuild\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\tensorflow-master\\tensorflow\\examples\\android\\gradleBuild\\intermediates\\dex\\debug\\mergeExtDexDebug\\out

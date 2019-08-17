@@ -1,0 +1,15 @@
+Executable : C:\Users\Appie\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HD:\tensorflow-master\tensorflow\examples\android\jni
+-BD:\tensorflow-master\tensorflow\examples\android\.externalNativeBuild\cmake\debug\arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\tensorflow-master\tensorflow\examples\android\gradleBuild\intermediates\cmake\debug\obj\arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=C:\Users\Appie\AppData\Local\Android\Sdk\ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\Appie\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\Appie\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_static
+jvmArgs : 
+

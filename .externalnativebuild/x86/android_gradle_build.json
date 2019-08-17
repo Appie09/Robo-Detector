@@ -1,0 +1,116 @@
+
+{
+	"buildFiles" : [ "D:/tensorflow-master/tensorflow/examples/android/jni/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Appie\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\tensorflow-master\\tensorflow\\examples\\android\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"tensorflow_demo-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "tensorflow_demo",
+			"buildCommand" : "C:\\Users\\Appie\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\tensorflow-master\\tensorflow\\examples\\android\\.externalNativeBuild\\cmake\\debug\\x86 --target tensorflow_demo",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/imageutils_jni.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/frame_pair.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/image_neon.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/keypoint_detector.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/logging.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/object_detector.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/object_tracker.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/object_tracker_jni.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/optical_flow.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/time_log.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/tracked_object.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/object_tracking/utils_neon.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/rgb2yuv.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dtensorflow_demo_EXPORTS -ID:\\tensorflow-master -ID:\\tensorflow-master\\tensorflow\\examples\\android\\jni  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -DSTANDALONE_DEMO_LIB                     -std=c++11 -fno-exceptions -fno-rtti -O2 -Wno-narrowing                     -fPIE -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/tensorflow-master/tensorflow/examples/android/jni/yuv2rgb.cc",
+					"workingDirectory" : "D:/tensorflow-master/tensorflow/examples/android/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "D:/tensorflow-master/tensorflow/examples/android/gradleBuild/intermediates/cmake/debug/obj/x86/libtensorflow_demo.so",
+			"toolchain" : "2528488133"
+		}
+	},
+	"toolchains" : 
+	{
+		"2528488133" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Appie/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
